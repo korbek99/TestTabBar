@@ -101,14 +101,12 @@
 		575D94A12076E014004E65CB /* SwiftTabBar */ = {
 			isa = PBXGroup;
 			children = (
+				D90887192CAC3DBF00DB2226 /* LaunchScreen */,
+				D90887182CAC3DAE00DB2226 /* StoryBoard */,
+				D90887172CAC3D9400DB2226 /* Views */,
 				575D94A22076E014004E65CB /* AppDelegate.swift */,
-				575D94A42076E014004E65CB /* FirstViewController.swift */,
-				575D94A62076E014004E65CB /* SecondViewController.swift */,
-				575D94A82076E014004E65CB /* Main.storyboard */,
 				575D94AB2076E014004E65CB /* Assets.xcassets */,
-				575D94AD2076E014004E65CB /* LaunchScreen.storyboard */,
 				575D94B02076E014004E65CB /* Info.plist */,
-				575D94D22076E25C004E65CB /* ThirdViewController.swift */,
 			);
 			path = SwiftTabBar;
 			sourceTree = "<group>";
@@ -129,6 +127,32 @@
 				575D94C62076E014004E65CB /* Info.plist */,
 			);
 			path = SwiftTabBarUITests;
+			sourceTree = "<group>";
+		};
+		D90887172CAC3D9400DB2226 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				575D94D22076E25C004E65CB /* ThirdViewController.swift */,
+				575D94A62076E014004E65CB /* SecondViewController.swift */,
+				575D94A42076E014004E65CB /* FirstViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D90887182CAC3DAE00DB2226 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				575D94A82076E014004E65CB /* Main.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		D90887192CAC3DBF00DB2226 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				575D94AD2076E014004E65CB /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +223,7 @@
 				TargetAttributes = {
 					575D949E2076E014004E65CB = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = SKHVA5VZ52;
+						DevelopmentTeam = 2U7FA696SS;
 						ProvisioningStyle = Automatic;
 					};
 					575D94B42076E014004E65CB = {
@@ -221,6 +245,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -423,12 +448,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = SKHVA5VZ52;
+				DEVELOPMENT_TEAM = 2U7FA696SS;
 				INFOPLIST_FILE = SwiftTabBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = KorbekSA.SwiftTabBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -436,12 +461,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = SKHVA5VZ52;
+				DEVELOPMENT_TEAM = 2U7FA696SS;
 				INFOPLIST_FILE = SwiftTabBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = KorbekSA.SwiftTabBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -522,6 +547,7 @@
 				575D94CB2076E014004E65CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		575D94CC2076E014004E65CB /* Build configuration list for PBXNativeTarget "SwiftTabBarTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +556,7 @@
 				575D94CE2076E014004E65CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		575D94CF2076E014004E65CB /* Build configuration list for PBXNativeTarget "SwiftTabBarUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +565,7 @@
 				575D94D12076E014004E65CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
